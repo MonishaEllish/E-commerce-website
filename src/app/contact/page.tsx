@@ -27,7 +27,7 @@ export default function Contact() {
       <h1 className="text-3xl font-bold mb-8">Contact Us</h1>
       {isSubmitted ? (
         <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded">
-          Thank you for your message. We'll get back to you soon!
+          Thank you for your message. We will get back to you soon!
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="max-w-lg">
